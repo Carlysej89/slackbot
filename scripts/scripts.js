@@ -1,5 +1,5 @@
 module.exports = function(robocop){
-    robocop.hear(/Hey Girl!/, function(res){
-        return res.send("Wassup!")
+    robocop.hear(/welcome!/, function(res){
+        return res.send("Welcome and happy first birthday Zoe")
     });
 }
